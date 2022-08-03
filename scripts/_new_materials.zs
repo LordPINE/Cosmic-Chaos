@@ -804,13 +804,19 @@ var eight_hydroxyquinoline = MaterialBuilder(32214, "eight_hydroxyquinoline")
 var aluminium_complex = MaterialBuilder(32215, "aluminium_complex")
     .dust()
     .color(0xf7ef94)
-    .iconSet("custom1")
+    .iconSet("DULL")
     .components([<material:aluminium> * 1, <material:eight_hydroxyquinoline> * 3])
     .build();
 
 var swamp_reed_extract = MaterialBuilder(32216, "swamp_reed_extract")
     .fluid()
     .color(0xb28137)
+    .build();
+
+var shadowflame = MaterialBuilder(32217, "shadowflame")
+    .ingot()
+    .color(0x690daa)
+    .iconSet("flame")
     .build();
 
 // Minor Manifested EMC
