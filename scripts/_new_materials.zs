@@ -617,7 +617,7 @@ var green_crystal_alloy = MaterialBuilder(32151, "green_crystal_alloy")
     .fluid("fluid", true)
     .ingot(1)
     .color(0x21a343)
-    .iconSet("SHINY")
+    .iconSet("custom1")
     .flags(["generate_plate", "generate_foil", "generate_fine_wire"])
     .cableProperties(8, 2, 0, false) // (long voltage, int amperage, int loss, @Optional boolean isSuperCon)
     .components([<material:crude_steel> * 4, <material:beryllium> * 1])
@@ -824,7 +824,7 @@ var emc_minor = MaterialBuilder(32300, "emc_minor")
     .fluid("fluid", true)
     .ingot(1)
     .color(0x261ba1)
-    .iconSet("SHINY")
+    .iconSet("custom1")
     .flags(["generate_plate", "generate_foil", "generate_fine_wire", "generate_rod", "generate_gear", "generate_long_rod", "generate_spring"])
     .cableProperties(8, 2, 1, false) // (long voltage, int amperage, int loss, @Optional boolean isSuperCon)
     .build();
@@ -849,9 +849,7 @@ StoneType.create(19,"nightstone","oreNightStone",<material:stone>,"midnight:nigh
 //Asteroid Stone
 val oreAsteriodStone as OrePrefix = OrePrefix.registerOrePrefix("oreAsteriodStone", 1);
 oreAsteriodStone.addSecondaryMaterial(<material:asteroid_dust>);
-StoneType.create(20,"asteroid","oreAsteriodStone",<material:stone>,"contenttweaker:block_ore_asteroid", null, true);
-
-//<blockstate:contenttweaker:block_rock_asteroid>
+StoneType.create(20,"asteroid","oreAsteriodStone",<material:stone>,"cosmic_core:asteroid_rock_ore", null, true);
 
 /*
 // Aurorian Stone

@@ -1,5 +1,5 @@
 import mods.gregtech.blocks.HeatingCoils;
-print("==================== loading blast_furnace.zs ====================");
+print("==================== loading The Betweenlands/blast_furnace.zs ====================");
 ##########################################################################################
 val HeatProofCasing = <gregtech:metal_casing:2>;
 
@@ -9,10 +9,10 @@ val HeatProofCasing = <gregtech:metal_casing:2>;
 // Discount 4 (16 / 4 EU/t in multismelter per item)
 // Tier 3 (used for discount in the cracker and pyrolyse oven)
 // Material null (uses the Dirt block for JEI name)
-HeatingCoils.add(<blockstate:contenttweaker:machine_coil_octine>, "octine", 1700, 2, 4, 3, <material:octine>);
+HeatingCoils.add(<blockstate:contenttweaker:machine_coil_octine>, "octine", 2200, 2, 4, 3, <material:octine>);
 
 
-<contenttweaker:machine_coil_octine>.addTooltip("Base Heat Capacity: " + format.yellow("1700K"));
+<contenttweaker:machine_coil_octine>.addTooltip("Base Heat Capacity: " + format.yellow("2200K"));
 <contenttweaker:machine_coil_octine>.addShiftTooltip((format.green("Multi Smelter"))+":","Hold " + (format.green("Shift")) + " for more info");
 <contenttweaker:machine_coil_octine>.addShiftTooltip(" Max Parallel: " + format.yellow("64"));
 <contenttweaker:machine_coil_octine>.addShiftTooltip(" Energy Usage: " + format.yellow("4 EU/t per recipe"));
@@ -58,4 +58,4 @@ recipes.addShaped("heat_proof_casing_syrmorite", HeatProofCasing * 2,
 // Material Silver (uses the Silver material for JEI name)
 //HeatingCoils.add(<blockstate:minecraft:planks:variant=oak>, "planks", 1900, 1, 2, 3, <material:silver>);
 ##########################################################################################
-print("==================== end of blast_furnace.zs ====================");
+print("==================== end of The Betweenlands/blast_furnace.zs ====================");
