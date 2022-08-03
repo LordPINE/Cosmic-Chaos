@@ -85,6 +85,7 @@ material.swamp_reed_extract=Swamp Reed Extract
 material.eight_hydroxyquinoline=8-Hydroxyquinoline
 material.aluminium_complex=Aluminium Semiconductor Complex
 material.aluminium_trichloride=Aluminium Trichloride
+material.shadowflame=Shadowflame
 
 item.material.oreprefix.oreSkyStone=Alchemical %s Ore
 item.material.oreprefix.oreAurorianStone=%s Ore

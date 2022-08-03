@@ -22,5 +22,14 @@ for item in uselessPlants {
 		.duration(15*20).EUt(2).buildAndRegister();
 }
 
+<recipemap:mixer>.recipeBuilder()
+	.inputs(<ore:dustTenebrum>)
+	.inputs(<midnight:nightshroom_powder> * 4)
+	.fluidInputs(<liquid:red_crystal_alloy> * 250)
+	.outputs(<ore:dustShadowflame>.firstItem)
+	.duration(100)
+	.EUt(30)
+	.buildAndRegister();
+
 ##########################################################################################
 print("==================== end of The Midnight/recipes.zs ====================");
